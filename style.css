@@ -1,0 +1,101 @@
+
+
+
+
+.main{
+    border: 5px solid silver;
+    align-items: center;
+    height: 100%
+}
+
+.heading{
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    font-size: 2em;
+}
+
+.container{
+    border: 5px solid white;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+
+    
+}
+
+
+
+.box{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    margin: 50px 30px 50px 30px;
+    font-weight: bold;
+    font-size: 2em;
+    border: 4px solid black;
+    
+}
+
+#white{
+    background-color: white;
+}
+
+#pink{
+    background-color: pink;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#red{
+    background-color: red;
+}
+
+#green{
+    background-color: green;
+}
+
+#orange{
+    background-color: orange;
+}
+
+#Blue{
+    background-color: blue;;
+}
+
+#gray{
+    background-color: gray;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    /* Your mobile styles go here */
+    body {
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+       
+
+    
+.heading{
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    font-size:20px;
+}
+
+    
+    
+  }
